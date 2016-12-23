@@ -20,6 +20,7 @@
         :placeholder="setInputObj.placeholder"
         :pattern="setInputObj.pattern"
         :autofocus="setInputObj.autofocus" 
+        :value="value" 
         @click='onItemClick' 
         @input='onItemInput' 
         @change='onItemChange' 
@@ -93,6 +94,9 @@ export default {
       type: String
     },
     tips: {
+      type: String
+    },
+    value: {
       type: String
     }
   }

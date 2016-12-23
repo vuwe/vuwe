@@ -19,17 +19,17 @@
     <cellsTip>表单</cellsTip>
     <cell form>
       <vwInput label="QQ" input-config='{
-        "type": "number",
+        "type": "tel",
         "placeholder": "输入QQ号码"
       }'></vwInput>
       <vwInput label="手机号" input-config='{
-        "type": "number",
+        "type": "tel",
         "placeholder": "输入手机号码"
       }' addon>
         <addonBtn slot="addon">获取验证码</addonBtn>
       </vwInput>
       <vwInput label="验证码" input-config='{
-        "type": "number",
+        "type": "tel",
         "placeholder": "输入右侧验证码"
       }' addon>
         <addonImg slot="addon" img="https://imgly.net/img/2gj.jpg"></addonImg>
