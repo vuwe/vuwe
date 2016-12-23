@@ -1,7 +1,7 @@
 {
-  "name": "dev",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "vuwe",
+  "version": "0.1.2",
+  "description": "WeUI for VueJS2",
   "author": "Jrain Lau <jrainlau@gmail.com>",
   "private": true,
   "scripts": {
