@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
+    "build-demo": "node build/build.demo.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
