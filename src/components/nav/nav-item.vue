@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import vwBadge from 'components/badges/badge.vue'
+import vwBadge from '../badges/badge.vue'
 
 export default {
   props: {

@@ -1,9 +1,14 @@
 {
   "name": "vuwe",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "WeUI for VueJS2",
   "author": "Jrain Lau <jrainlau@gmail.com>",
-  "private": true,
+  "main": "dist/vuwe.js",
+  "keywords": [
+    "vue2",
+    "weui",
+    "vuwe"
+  ],
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -60,5 +65,7 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "author": "Jrain Lau",
+  "license": "MIT"
 }

@@ -50,7 +50,6 @@
 
 <script>
 import { childMixin } from '../../mixins/mixins.js'
-import badge from 'components/badges/badge.vue'
 
 export default {
   mixins: [childMixin],
@@ -101,9 +100,6 @@ export default {
       unSwipe: false,
       inTransition: false
     }
-  },
-  components: {
-    badge
   },
   methods: {
     touchStart (e) {
@@ -157,9 +153,6 @@ export default {
     }
     &:active {
       background-color: #ECECEC;
-    }
-    &-badge {
-      position: relative;
     }
   }
   .vw-buttons {
