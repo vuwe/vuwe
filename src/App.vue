@@ -11,7 +11,7 @@
       <navItem value='#/' title="Intro" icon="fa fa-home" @click="onTab('/')"></navItem>
       <navItem value='#/demo' title="Demo" icon="fa fa-tree" @click="onTab('demo')"></navItem>
       <navItem value='#/coffee' title="Coffee" icon="fa fa-heart" @click="onTab('coffee')"></navItem>
-      <navItem title="Github" icon="fa fa-github" @click="onTab('github')"></navItem>
+      <navItem title="Doc" icon="fa fa-book" @click="onTab('doc')"></navItem>
     </bottomNav>
   </div>
 </template>
@@ -50,8 +50,8 @@ export default {
   },
   methods: {
     onTab (t) {
-      if (t === 'github') {
-        window.open('https://github.com/jrainlau/vuwe')
+      if (t === 'doc') {
+        window.open('https://github.com/vuwe/document')
       } else {
         this.$router.push(t)
       }
