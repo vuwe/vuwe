@@ -51,7 +51,7 @@ export default {
   methods: {
     onTab (t) {
       if (t === 'doc') {
-        window.open('https://github.com/vuwe/document')
+        window.open('https://vuwe.github.io/vuwe/doc.html')
       } else {
         this.$router.push(t)
       }
