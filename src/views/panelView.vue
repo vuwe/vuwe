@@ -1,10 +1,10 @@
 <template>
   <div class="panel-view">
     <CellTips>普通panel</CellTips>
-    <Panel :linkObj="linkObjs" title="Panel 1" more-info="show more" more-link="#"></Panel>
+    <Panel :link-obj="linkObjs" title="Panel 1" more-info="show more" more-link="#"></Panel>
 
     <CellTips>仅带标题</CellTips>
-    <Panel title-only :linkObj="linkObjs" title="Panel 1" more-info="show more" more-link="#"></Panel>
+    <Panel title-only :link-obj="linkObjs" title="Panel 1" more-info="show more" more-link="#"></Panel>
   </div>
 </template>
 

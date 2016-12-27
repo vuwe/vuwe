@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     adjusting (e) {
-      this.$emit('change', e.target.value)
+      this.$emit('on-change', e.target.value)
       counter(this.$el)
     }
   }

@@ -17,7 +17,7 @@ export default {
       this.selected = newVal
     },
     selected (newVal) {
-      this.$emit('change', newVal)
+      this.$emit('on-change', newVal)
     }
   }
 }

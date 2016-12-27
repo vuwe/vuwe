@@ -8,23 +8,23 @@ const childMixin = {
   methods: {
     onItemClick (e) {
       if (!this.disabled) {
-        this.$emit('click', e)
+        this.$emit('on-click', e)
       }
     },
     onItemInput (e) {
-      this.$emit('input', e.target.value)
+      this.$emit('on-input', e.target.value)
     },
     onItemChange (e) {
-      this.$emit('change', e.target.value)
+      this.$emit('on-change', e.target.value)
     },
     onItemFocus (e) {
-      this.$emit('focus', e)
+      this.$emit('on-focus', e)
     },
     onItemBlur (e) {
-      this.$emit('blur', e)
+      this.$emit('on-blur', e)
     },
     onItemEnter (e) {
-      this.$emit('enter', e)
+      this.$emit('on-enter', e)
     }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="preview-view">
-    <Preview :previewObj='previewObj'></Preview>
+    <Preview :preview-obj='previewObj'></Preview>
   </div>
 </template>
 

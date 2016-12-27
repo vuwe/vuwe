@@ -28,7 +28,7 @@ export default {
       this.inputValue = val
     },
     inputValue (newVal) {
-      this.$emit('change', newVal)
+      this.$emit('on-change', newVal)
     }
   }
 }

@@ -15,7 +15,6 @@
 
     <CellTips>交互组件</CellTips>
     <ListItem icon="fa fa-hand-stop-o" title="Scroller" link="scroller"></ListItem>
-    <ListItem icon="fa fa-map" title="SWIPER" link="swiper"></ListItem>
     <ListItem icon="fa fa-indent" title="CATEGORY " link="category"></ListItem>
     <ListItem icon="fa fa-th-list" title="ACTION_SHEET" link="action-sheet"></ListItem>
     <ListItem icon="fa fa-comment-o" title="DIALOG" link="dialog"></ListItem>

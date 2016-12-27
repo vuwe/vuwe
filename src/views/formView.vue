@@ -108,11 +108,11 @@
     <cellsTip>滑块</cellsTip>
     <div style="padding:10px;">
       <span>{{rangeValA}}</span>
-      <range @change="rangeValForA"></range>
+      <range @on-change="rangeValForA"></range>
     </div>
     <div style="padding:10px;">
       <span>{{rangeValB}}</span>
-      <range step="10" :value="rangeValB" @change="rangeValForB"></range>
+      <range step="10" :value="rangeValB" @on-change="rangeValForB"></range>
     </div>
 
     <cellsTip>数字</cellsTip>

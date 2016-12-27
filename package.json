@@ -1,6 +1,6 @@
 {
   "name": "vuwe",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "WeUI for VueJS2",
   "author": "Jrain Lau <jrainlau@gmail.com>",
   "main": "dist/vuwe.js",

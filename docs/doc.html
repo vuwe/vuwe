@@ -10,5 +10,112 @@
 <body>
   <div id="app"></div>
 </body>
-<script src="//unpkg.com/docsify/lib/docsify.js" data-router data-repo=""></script>
+<script>
+  window.sidebar = [
+    { slug: 'doc.html#/#介绍', title: '● 介绍' },
+    { slug: 'doc.html#/#使用', title: '● 使用' },
+    { slug: 'doc.html#/#参与开发', title: '● 参与开发' },
+    { 
+      slug: 'doc.html#/com-button#ui组件',
+      title: '● UI组件',
+      children: [
+        {
+          slug: 'doc.html#/com-button#按钮',
+          title: '按钮'
+        }, 
+        {
+          slug: 'doc.html#/com-form#表单元素',
+          title: '表单',
+          children: [
+          {
+            slug: 'doc.html#/com-form#单选项',
+            title: '单选项'
+          }, {
+            slug: 'doc.html#/com-form#复选项',
+            title: '复选项'
+          }, {
+            slug: 'doc.html#/com-form#输入框',
+            title: '输入框'
+          }, {
+            slug: 'doc.html#/com-form#输入框追加',
+            title: '输入框追加'
+          }, {
+            slug: 'doc.html#/com-form#开关',
+            title: '开关'
+          }, {
+            slug: 'doc.html#/com-form#文本域',
+            title: '文本域'
+          }, {
+            slug: 'doc.html#/com-form#选择器',
+            title: '选择器'
+          }, {
+            slug: 'doc.html#/com-form#滑块',
+            title: '滑块'
+          }, {
+            slug: 'doc.html#/com-form#数字',
+            title: '数字'
+          }, {
+            slug: 'doc.html#/com-form#协议条款',
+            title: '协议条款'
+          }]
+        },
+        { 
+          slug: 'doc.html#/com-list', 
+          title: '列表' 
+        },
+        {
+          slug: 'doc.html#/com-panel', 
+          title: '面板' 
+        },
+        {
+          slug: 'doc.html#/com-preview', 
+          title: '表单预览' 
+        },
+        {
+          slug: 'doc.html#/todo', 
+          title: '卡片' 
+        },
+        {
+          slug: 'doc.html#/todo', 
+          title: '进度' 
+        },
+        {
+          slug: 'doc.html#/todo', 
+          title: '图标' 
+        },
+        {
+          slug: 'doc.html#/todo', 
+          title: '分割线' 
+        },
+        {
+          slug: 'doc.html#/todo', 
+          title: '页头' 
+        },
+        {
+          slug: 'doc.html#/todo', 
+          title: '页脚' 
+        }
+      ] 
+    },
+    { 
+      slug: 'doc.html#/todo',
+      title: '● 交互组件',
+      children: [
+        { slug: 'doc.html#/todo', title: 'Scroller' },
+        { slug: 'doc.html#/todo', title: '手风琴' },
+        { slug: 'doc.html#/todo', title: '弹出式列表' },
+        { slug: 'doc.html#/todo', title: '对话框' },
+        { slug: 'doc.html#/todo', title: '弹出层' },
+        { slug: 'doc.html#/todo', title: '消息提示' },
+        { slug: 'doc.html#/todo', title: '多重选择器' },
+        { slug: 'doc.html#/todo', title: '搜索框' },
+        { slug: 'doc.html#/todo', title: '密码设置' },
+        { slug: 'doc.html#/todo', title: 'Tab切换' },
+        { slug: 'doc.html#/todo', title: '底部导航' },
+        { slug: 'doc.html#/todo', title: '步骤指示' }
+      ]
+    }
+  ]
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.js" data-router data-repo="https://github.com/vuwe/vuwe" data-sidebar="sidebar"></script>
 </html>
