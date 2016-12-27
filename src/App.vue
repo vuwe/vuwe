@@ -37,6 +37,7 @@ export default {
   mounted () {
     this.backIcon = (window.location.hash !== '#/' && window.location.hash !== '#/intro')
     this.showNav = (window.top === window)
+    console.log(`Within an iframe: ${!(window.top === window)}`)
   },
   watch: {
     $route (to, from) {

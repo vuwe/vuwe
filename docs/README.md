@@ -97,5 +97,5 @@ npm run dev
 ```
 <vwButton>Primary</vwButton>
 ```
-<iframe src="https://vuwe.github.io/vuwe/#/button" frameborder="0" style="width:100%;height:400px;"></iframe>
+<iframe src="http://localhost:8080/#/button" frameborder="0" style="width:100%;height:400px;"></iframe>
 
