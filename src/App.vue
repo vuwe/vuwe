@@ -7,7 +7,7 @@
         </keep-alive>
       </transition>
     </div>
-    <bottomNav class="tab-nav" :value='tabNav'>
+    <bottomNav class="tab-nav" :value='tabNav' v-if="showNav">
       <navItem value='#/' title="Intro" icon="fa fa-home" @click="onTab('/')"></navItem>
       <navItem value='#/demo' title="Demo" icon="fa fa-tree" @click="onTab('demo')"></navItem>
       <navItem value='#/coffee' title="Coffee" icon="fa fa-heart" @click="onTab('coffee')"></navItem>
@@ -25,7 +25,8 @@ export default {
   data () {
     return {
       title: 'VUWE',
-      backIcon: false
+      backIcon: false,
+      showNav: true
     }
   },
   computed: {
@@ -34,9 +35,8 @@ export default {
     }
   },
   mounted () {
-    if (window.location.hash !== '#/' && window.location.hash !== '#/intro') {
-      this.backIcon = true
-    }
+    this.backIcon = (window.location.hash !== '#/' && window.location.hash !== '#/intro')
+    this.showNav = (window.top === window)
   },
   watch: {
     $route (to, from) {
