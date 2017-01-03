@@ -8,10 +8,10 @@
       </transition>
     </div>
     <bottomNav class="tab-nav" :value='tabNav' v-if="showNav">
-      <navItem value='#/' title="Intro" icon="fa fa-home" @click="onTab('/')"></navItem>
-      <navItem value='#/demo' title="Demo" icon="fa fa-tree" @click="onTab('demo')"></navItem>
-      <navItem value='#/coffee' title="Coffee" icon="fa fa-heart" @click="onTab('coffee')"></navItem>
-      <navItem title="Doc" icon="fa fa-book" @click="onTab('doc')"></navItem>
+      <navItem value='#/' title="Intro" icon="fa fa-home" @click.native="onTab('/')"></navItem>
+      <navItem value='#/demo' title="Demo" icon="fa fa-tree" @click.native="onTab('demo')"></navItem>
+      <navItem value='#/coffee' title="Coffee" icon="fa fa-heart" @click.native="onTab('coffee')"></navItem>
+      <navItem title="Doc" icon="fa fa-book" @click.native="onTab('doc')"></navItem>
     </bottomNav>
   </div>
 </template>

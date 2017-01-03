@@ -1,7 +1,7 @@
 <template>
   <div class="progress-view">
     <template v-for="i in 4">
-      <VwProgress :value="value[i - 1]" @click="resetVal"></VwProgress>
+      <VwProgress :value="value[i - 1]" @click.native="resetVal"></VwProgress>
     </template>
   </div>
 </template>

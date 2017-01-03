@@ -2,8 +2,8 @@
   <div class="steps-view">
     <Step :steps="steps" :value="value"></Step>
     <div style="margin-top: 20px;">
-      <VwButton primary @click="nextStep">Next</VwButton>
-      <VwButton plain @click="reset">Reset</VwButton>
+      <VwButton primary @click.native="nextStep">Next</VwButton>
+      <VwButton plain @click.native="reset">Reset</VwButton>
     </div>
   </div>
 </template>

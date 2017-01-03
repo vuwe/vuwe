@@ -44,7 +44,7 @@ export default {
     },
     onInput () {
       if (this.password.length === this.len) {
-        this.$emit('change', this.password)
+        this.$emit('on-change', this.password)
       }
     }
   }

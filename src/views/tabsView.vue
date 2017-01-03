@@ -1,6 +1,6 @@
 <template>
   <div class="tabs-view">
-    <TabBar :tabs="tabItemList" @change="onChange"></TabBar>
+    <TabBar :tabs="tabItemList" @on-change="onChange"></TabBar>
     <div style="position: relative; top: 50px; padding: 0 10px;">
       <div>{{currentView}}</div>
     </div>

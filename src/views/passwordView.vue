@@ -1,7 +1,7 @@
 <template>
   <div class="password-view">
     <p>请输入密码</p>
-    <Password length="6" :value="value" autofocus @change="onSet"></Password>
+    <Password length="6" :value="value" autofocus @on-change="onSet"></Password>
   </div>
 </template>
 

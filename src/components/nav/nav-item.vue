@@ -33,7 +33,6 @@ export default {
   methods: {
     select (e) {
       this.$parent.tabIndex = this.value
-      this.$emit('click', e)
     }
   },
   components: {

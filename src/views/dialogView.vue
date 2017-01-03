@@ -1,10 +1,10 @@
 <template>
   <div class="dialog-view">
-    <VwButton plain @click="dialog('iOS')">iOS</VwButton>
-    <VwButton plain @click="dialog('Android')">Android</VwButton>
+    <VwButton plain @click.native="dialog('iOS')">iOS</VwButton>
+    <VwButton plain @click.native="dialog('Android')">Android</VwButton>
 
-    <VwButton plain @click="dialog('iOS2')">iOS with 2 buttons</VwButton>
-    <VwButton plain @click="dialog('Android2')">Android with 2 buttons</VwButton>
+    <VwButton plain @click.native="dialog('iOS2')">iOS with 2 buttons</VwButton>
+    <VwButton plain @click.native="dialog('Android2')">Android with 2 buttons</VwButton>
   </div>
 </template>
 

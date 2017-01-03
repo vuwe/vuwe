@@ -1,9 +1,9 @@
 <template>
   <div class="info-view">
     <div class="info-view-btnbox">
-      <VwButton origin @click="showOut()">Show info</VwButton>
-      <VwButton primary @click="showOut('success')">Show info</VwButton>
-      <VwButton warn @click="showOut('warn')">Show info</VwButton>
+      <VwButton origin @click.native="showOut()">Show info</VwButton>
+      <VwButton primary @click.native="showOut('success')">Show info</VwButton>
+      <VwButton warn @click.native="showOut('warn')">Show info</VwButton>
     </div>
   </div>
 </template>

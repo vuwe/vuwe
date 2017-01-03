@@ -28,7 +28,7 @@ export default {
   methods: {
     tabChange (i) {
       this.tabIndex = i
-      this.$emit('change', i)
+      this.$emit('on-change', i)
     }
   }
 }

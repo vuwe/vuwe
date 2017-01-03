@@ -1,9 +1,9 @@
 <template>
   <div class="toast-view">
-    <VwButton plain @click="showToast('Normal')">Normal</VwButton>
-    <VwButton plain @click="showToast('Success')">Sucess</VwButton>
-    <VwButton plain @click="showToast('Loading')">Loading</VwButton>
-    <VwButton plain @click="showToast('Cus')">Custom Icon</VwButton>
+    <VwButton plain @click.native="showToast('Normal')">Normal</VwButton>
+    <VwButton plain @click.native="showToast('Success')">Sucess</VwButton>
+    <VwButton plain @click.native="showToast('Loading')">Loading</VwButton>
+    <VwButton plain @click.native="showToast('Cus')">Custom Icon</VwButton>
   </div>
 </template>
 

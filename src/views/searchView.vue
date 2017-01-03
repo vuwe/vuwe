@@ -1,6 +1,6 @@
 <template>
   <div class="search-view">
-    <SearchBar :result-list="resultList" @search="searchIt" @input="onInput"></SearchBar>
+    <SearchBar :result-list="resultList" @search="searchIt" @input.native="onInput"></SearchBar>
   </div>
 </template>
 

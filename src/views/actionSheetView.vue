@@ -1,8 +1,8 @@
 <template>
   <div class="action-sheet-view">
-    <VwButton plain @click="actionSheet('iOS')">iOS</VwButton>
-    <VwButton plain @click="actionSheet('noCancel')">No cancel</VwButton>
-    <VwButton plain @click="actionSheet('Android')">Android</VwButton>
+    <VwButton plain @click.native="actionSheet('iOS')">iOS</VwButton>
+    <VwButton plain @click.native="actionSheet('noCancel')">No cancel</VwButton>
+    <VwButton plain @click.native="actionSheet('Android')">Android</VwButton>
 
     <ActionSheet :show-it="iOS" @hide="hidePopup">
       <div>选项1</div>
