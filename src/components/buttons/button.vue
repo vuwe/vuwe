@@ -5,9 +5,8 @@
   'weui-btn_default': origin,
   'weui-btn_plain-default': plain,
   'weui-btn_plain-primary': plainPrimary,
-  'weui-btn_mini': mini,
-  'weui-btn_disabled': disabled
-  }, 'weui-btn']" :disabled='disabled' @click='onItemClick'>
+  'weui-btn_mini': mini
+  }, 'weui-btn', disabledType]" :disabled='disabled' @click='onItemClick'>
     <slot></slot>
   </a>
 </template>
@@ -44,6 +43,17 @@ export default {
     disabled: {
       type: Boolean,
       default: false
+    }
+  },
+  computed: {
+    disabledType () {
+      if (this.disabled & !this.plain) {
+        return "weui-btn_disabled"
+      } else if (this.disabled & this.plain) {
+        return "weui-btn_plain-disabled"
+      } else {
+        return
+      }
     }
   }
 }
